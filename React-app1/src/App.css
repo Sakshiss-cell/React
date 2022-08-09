@@ -1,0 +1,125 @@
+body {
+  font-family: "Prociono";
+  font-style: normal;
+  color: #000000;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* navbar */
+.navbar li {
+  font-size: 20px;
+  line-height: 17px;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.navbar img {
+  margin-left: 50px;
+  width: 180px;
+  height: 180px;
+}
+
+/* common button */
+button {
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 200;
+  font-size: 1rem;
+  line-height: 14px;
+  margin-right: 50px;
+  background-color: transparent;
+  color: #2a165e;
+  border-color: #2a165e;
+  border: 1px solid #2a165e;
+  padding: 0.6rem 0.6rem;
+  border-radius: 0.25rem;
+}
+button:hover {
+  background-color: #2a165e;
+  color: white;
+}
+
+/* header */
+
+.head h1 {
+  line-height: 50px;
+  letter-spacing: 10px;
+}
+
+.head p {
+  letter-spacing: 5px;
+  margin-top: 30px;
+  font-size: 40px;
+  line-height: 49px;
+}
+.head button {
+  margin-top: 30px;
+  background-color: #3c296d;
+  color: whitesmoke;
+}
+.head button:hover {
+  background-color: transparent;
+  color: #2a165e;
+}
+.head img {
+  width: 350px;
+  height: 350px;
+  text-align: right;
+}
+@media (max-width: 500px) {
+  .head p {
+    font-size: 28px;
+  }
+}
+
+/* section 2 */
+section .card {
+  border: none;
+  flex-direction: row;
+}
+section .card:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  top: -4px;
+  border: 1px solid #cccccc;
+  background-color: #e0f7fa;
+}
+
+section h1 {
+  margin-top: 100px;
+  font-size: 45px;
+  line-height: 55px;
+}
+
+section h3 {
+  font-size: 35px;
+  line-height: 43px;
+}
+
+section p {
+  margin-top: 30px !important;
+  font-size: 25px;
+  line-height: 50px;
+}
+section img {
+  text-align: center;
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+}
+
+@media (max-width: 500px) {
+  section h3 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 500px) {
+  section img {
+    margin-top: 0px !important;
+  }
+}
+
+.footer {
+  margin-top: 250px !important;
+  text-align: center;
+}
